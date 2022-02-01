@@ -6,4 +6,4 @@ var user=new mongoose.Schema({
     pasword:{type:String}
 })
 
-module.exports=mongoose.model('person',user)
+module.exports=mongoose.model('user',user)
